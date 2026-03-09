@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 // --- 模擬資料區 ---
-const LAB_NAME = "前瞻智慧系統實驗室";
+const LAB_NAME = "智慧系統實驗室";
 const LAB_NAME_EN = "Advanced Intelligent Systems Laboratory (AISL)";
 const PROFESSOR_NAME = "王大明 教授";
 
