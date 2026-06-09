@@ -303,9 +303,11 @@ function AdvisorSection() {
         {/* Profile Image Column */}
         <div className="w-full md:w-1/3 flex flex-col items-center">
           <div className="w-48 h-64 bg-slate-200 rounded-lg shadow-md mb-6 flex items-center justify-center overflow-hidden border-4 border-white">
-            {/* Placeholder for Photo */}
-            <User className="w-20 h-20 text-slate-400" />
-            <span className="sr-only">教授照片</span>
+            <img 
+              src="/teacher.jpg" 
+              alt="教授照片" 
+              className="w-full h-full object-cover" 
+            />
           </div>
           <h3 className="text-2xl font-bold text-slate-800 mb-1">{PROFESSOR_NAME}</h3>
           <p className="text-indigo-600 font-medium mb-6">教授 / 實驗室主持人</p>
