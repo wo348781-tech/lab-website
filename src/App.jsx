@@ -19,12 +19,12 @@ import {
 // --- 模擬資料區 ---
 const LAB_NAME = "智慧系統實驗室";
 const LAB_NAME_EN = "Advanced Intelligent Systems Laboratory (AISL)";
-const PROFESSOR_NAME = "王大明 教授";
+const PROFESSOR_NAME = "陳昆皇 教授";
 
 const NEWS = [
-  { date: "2026-02-15", content: "恭喜張三同學獲得全國大專院校人工智慧競賽特優！" },
-  { date: "2025-11-20", content: "實驗室兩篇論文獲頂級會議 IEEE ICC 2026 接受。" },
-  { date: "2025-09-01", content: "歡迎四位碩士班新生及兩位專題生加入實驗室團隊。" }
+  //{ date: "2026-02-15", content: "恭喜張三同學獲得全國大專院校人工智慧競賽特優！" },
+  //{ date: "2025-11-20", content: "實驗室兩篇論文獲頂級會議 IEEE ICC 2026 接受。" },
+  //{ date: "2025-09-01", content: "歡迎四位碩士班新生及兩位專題生加入實驗室團隊。" }
 ];
 
 const RESEARCH_PROJECTS = [
@@ -66,10 +66,10 @@ const HONORS = [
 ];
 
 const MEMBERS = {
-  phd: [
-    { name: "張三", role: "博士班三年級", research: "聯邦學習、隱私保護" },
-    { name: "李四", role: "博士班一年級", research: "6G 網路資源分配" }
-  ],
+  //phd: [
+  //  { name: "張三", role: "博士班三年級", research: "聯邦學習、隱私保護" },
+  //  { name: "李四", role: "博士班一年級", research: "6G 網路資源分配" }
+  //],
   master: [
     { name: "王五", role: "碩士班二年級", research: "醫療影像分割" },
     { name: "趙六", role: "碩士班二年級", research: "邊緣運算卸載" },
