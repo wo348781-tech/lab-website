@@ -339,9 +339,8 @@ function AdvisorSection() {
               <GraduationCap className="w-6 h-6 mr-2 text-indigo-600" /> 最高學歷
             </h4>
             <ul className="list-disc list-inside space-y-2 text-slate-700 ml-2">
-              <li>美國史丹佛大學 (Stanford University) 電機工程學系 博士</li>
-              <li>國立臺灣大學 電機工程學系 碩士</li>
-              <li>國立臺灣大學 電機工程學系 學士</li>
+              <li>國立清華大學 工業工程與工程管理博士</li>
+              {/*<li>國立臺灣大學 電機工程學系 碩士</li>*/}
             </ul>
           </section>
 
