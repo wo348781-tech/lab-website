@@ -71,7 +71,7 @@ const MEMBERS = {
   //  { name: "李四", role: "博士班一年級", research: "6G 網路資源分配" }
   //],
   master: [
-    { name: "黃義凱", role: "碩士班一年級", research: "醫療影像分割", photo: "/master/student_b" },
+    { name: "黃義凱", role: "碩士班一年級", research: "醫療影像分割", photo: "/master/student_b.jpg" },
     { name: "陳德民", role: "碩士班一年級", research: "無人機通訊軌跡優化" },
     { name: "詹士毅", role: "碩士班一年級", research: "強化學習應用" }
   ],
