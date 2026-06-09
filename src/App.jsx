@@ -527,9 +527,19 @@ function MembersSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {members.map((member, idx) => (
             <div key={idx} className="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 text-center flex flex-col items-center p-6">
+              {/* 修改後：優先顯示照片的圓圈 */}
               <div className="w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center mb-4 border-2 border-indigo-100">
-                {/* 姓名首字母作為頭像替代 */}
-                <span className="text-2xl font-bold text-indigo-400">{member.name.charAt(0)}</span>
+                {member.photo ? (
+                  // 如果有照片，就顯示圖片
+                  <img 
+                    src={member.photo} 
+                    alt={`${member.name} 的照片`} 
+                    className="w-full h-full object-cover rounded-full" 
+                  />
+                ) : (
+                  // 如果沒有照片，顯示原本的姓名首字母
+                  <span className="text-2xl font-bold text-indigo-400">{member.name.charAt(0)}</span>
+                )}
               </div>
               <h5 className="text-lg font-bold text-slate-800 mb-1">{member.name}</h5>
               <p className="text-sm text-indigo-600 font-medium mb-3">{member.role}</p>
