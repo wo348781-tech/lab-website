@@ -304,7 +304,7 @@ function AdvisorSection() {
         <div className="w-full md:w-1/3 flex flex-col items-center">
           <div className="w-48 h-64 bg-slate-200 rounded-lg shadow-md mb-6 flex items-center justify-center overflow-hidden border-4 border-white">
             <img 
-              src="public/teacher.png" 
+              src="public\teacher.png" 
               alt="教授照片" 
               className="w-full h-full object-cover" 
             />
