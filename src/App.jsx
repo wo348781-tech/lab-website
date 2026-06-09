@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { 
-  Home, 
-  User, 
-  Microscope, 
-  FileBadge, 
-  BookOpen, 
-  Award, 
-  Users, 
+import {
+  Home,
+  User,
+  Microscope,
+  FileBadge,
+  BookOpen,
+  Award,
+  Users,
   GraduationCap,
   Mail,
   MapPin,
@@ -302,15 +302,15 @@ function AdvisorSection() {
         {/* Profile Image Column */}
         <div className="w-full md:w-1/3 flex flex-col items-center">
           <div className="w-48 h-64 bg-slate-200 rounded-lg shadow-md mb-6 flex items-center justify-center overflow-hidden border-4 border-white">
-            <img 
-              src="/teacher.jpg" 
-              alt="教授照片" 
-              className="w-full h-full object-cover" 
+            <img
+              src="/teacher.jpg"
+              alt="教授照片"
+              className="w-full h-full object-cover"
             />
           </div>
           <h3 className="text-2xl font-bold text-slate-800 mb-1">{PROFESSOR_NAME}</h3>
           <p className="text-indigo-600 font-medium mb-6">教授 / 實驗室主持人</p>
-          
+
           <div className="w-full bg-slate-50 p-5 rounded-lg border border-slate-200 space-y-3">
             <div className="flex items-center text-slate-600">
               <Mail className="w-5 h-5 mr-3 text-slate-400" />
@@ -393,10 +393,10 @@ function ResearchSection() {
           <div key={idx} className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col md:flex-row">
             {/* 示意圖 (Placeholder) */}
             <div className="w-full md:w-1/3 bg-slate-100 min-h-[200px] flex items-center justify-center border-r border-slate-100 relative">
-               <div className="absolute inset-0 bg-gradient-to-br from-indigo-100 to-blue-50 opacity-50"></div>
-               <Microscope className="w-16 h-16 text-indigo-300 z-10" />
+              <div className="absolute inset-0 bg-gradient-to-br from-indigo-100 to-blue-50 opacity-50"></div>
+              <Microscope className="w-16 h-16 text-indigo-300 z-10" />
             </div>
-            
+
             <div className="p-6 md:w-2/3 flex flex-col justify-center">
               <h3 className="text-xl font-bold text-slate-800 mb-3">{project.title}</h3>
               <p className="text-slate-600 leading-relaxed mb-4 flex-grow">
@@ -421,7 +421,7 @@ function PatentsSection() {
   return (
     <div className="animate-in fade-in duration-500">
       <p className="text-slate-600 mb-6">本實驗室積極將研究成果轉化為實際應用，並申請多項國內外專利以保護智慧財產權。</p>
-      
+
       <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse">
           <thead>
@@ -439,9 +439,8 @@ function PatentsSection() {
                 <td className="py-4 px-4 font-medium text-slate-800">{patent.title}</td>
                 <td className="py-4 px-4 text-slate-600 font-mono text-sm">{patent.number}</td>
                 <td className="py-4 px-4">
-                  <span className={`px-2.5 py-1 rounded-full text-xs font-bold ${
-                    patent.status === '已獲證' ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700'
-                  }`}>
+                  <span className={`px-2.5 py-1 rounded-full text-xs font-bold ${patent.status === '已獲證' ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700'
+                    }`}>
                     {patent.status}
                   </span>
                 </td>
@@ -501,7 +500,7 @@ function HonorsSection() {
             <div className="absolute w-6 h-6 bg-indigo-600 rounded-full left-[-13px] top-1 border-4 border-white shadow-sm flex items-center justify-center">
               <Award className="w-3 h-3 text-white hidden sm:block" />
             </div>
-            
+
             <div className="bg-white border border-slate-100 shadow-sm rounded-lg p-5 hover:shadow-md transition-shadow">
               <span className="text-sm font-bold text-indigo-600 mb-1 block">{honor.year}</span>
               <h4 className="text-lg font-bold text-slate-800 mb-2">{honor.title}</h4>
@@ -529,20 +528,9 @@ function MembersSection() {
           {members.map((member, idx) => (
             <div key={idx} className="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 text-center flex flex-col items-center p-6">
               <div className="w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center mb-4 border-2 border-indigo-100">
-                {/* 修改後：優先顯示照片的圓圈 */}
-                <div className="w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center mb-4 border-2 border-indigo-100 overflow-hidden relative">
-                  {member.photo ? (
-                    // 如果有照片，就顯示圖片
-                    <img 
-                      src={member.photo} 
-                      alt={`${member.name} 的照片`} 
-                      className="w-full h-full object-cover rounded-full" 
-                    />
-                  ) : (
-                    // 如果沒有照片，顯示原本的姓名首字母
-                    <span className="text-2xl font-bold text-indigo-400">{member.name.charAt(0)}</span>
-                  )}
-                </div>
+                {/* 姓名首字母作為頭像替代 */}
+                <span className="text-2xl font-bold text-indigo-400">{member.name.charAt(0)}</span>
+              </div>
               <h5 className="text-lg font-bold text-slate-800 mb-1">{member.name}</h5>
               <p className="text-sm text-indigo-600 font-medium mb-3">{member.role}</p>
               <p className="text-xs text-slate-500 bg-slate-50 px-3 py-1.5 rounded-md w-full">
