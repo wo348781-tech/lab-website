@@ -72,8 +72,8 @@ const MEMBERS = {
   //],
   master: [
     { name: "黃義凱", role: "碩士班一年級", research: "醫療影像分割", photo: "/members/student_b.jpg" },
-    { name: "陳德民", role: "碩士班一年級", research: "無人機通訊軌跡優化" },
-    { name: "詹士毅", role: "碩士班一年級", research: "強化學習應用" }
+    { name: "陳德民", role: "碩士班一年級", research: "無人機通訊軌跡優化", photo: "/members/student_d.jpg" },
+    { name: "詹士毅", role: "碩士班一年級", research: "強化學習應用", photo: "/members/student_c.jpg" }
   ],
   undergrad: [
     { name: "吳九", role: "大學部專題生", research: "物聯網感測資料分析" },
