@@ -73,7 +73,9 @@ const MEMBERS = {
   master: [
     { name: "黃義凱", role: "碩士班一年級", research: "無", photo: "/members/student_b.jpg" },
     { name: "陳德民", role: "碩士班一年級", research: "無", photo: "/members/student_d.jpg" },
-    { name: "詹士毅", role: "碩士班一年級", research: "無", photo: "/members/student_c.jpg" }
+    { name: "詹士毅", role: "碩士班一年級", research: "無", photo: "/members/student_c.jpg" },
+    { name: "123", role: "碩士班一年級", research: "無" },
+    { name: "hugo", role: "碩士班一年級", research: "無", photo: "/members/student_a.jpg" }
   ],
   undergrad: [
     { name: "李庭安", role: "大學部專題生", research: "無" },
