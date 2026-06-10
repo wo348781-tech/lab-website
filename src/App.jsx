@@ -315,19 +315,19 @@ function AdvisorSection() {
           <div className="w-full bg-slate-50 p-5 rounded-lg border border-slate-200 space-y-3">
             <div className="flex items-center text-slate-600">
               <Mail className="w-5 h-5 mr-3 text-slate-400" />
-              <a href="mailto:prof.wang@example.edu.tw" className="hover:text-indigo-600 text-sm">prof.wang@example.edu.tw</a>
+              <a href="mailto:kunhuang@mail.mcut.edu.tw" className="hover:text-indigo-600 text-sm">prof.wang@example.edu.tw</a>
             </div>
             <div className="flex items-center text-slate-600">
               <Phone className="w-5 h-5 mr-3 text-slate-400" />
-              <span className="text-sm">+886-2-3366-XXXX ext. 123</span>
+              <span className="text-sm">+886-2-2908-9899 分機 3146</span>
             </div>
             <div className="flex items-center text-slate-600">
               <MapPin className="w-5 h-5 mr-3 text-slate-400" />
-              <span className="text-sm">資訊系館 501室</span>
+              <span className="text-sm">創新大樓 6 樓 616 室</span>
             </div>
             <div className="flex items-center text-slate-600">
               <ExternalLink className="w-5 h-5 mr-3 text-slate-400" />
-              <a href="#" className="hover:text-indigo-600 text-sm">個人網頁 (Personal Webpage)</a>
+              <a href="#" className="hover:text-indigo-600 text-sm">個人網頁</a>
             </div>
           </div>
         </div>
@@ -351,7 +351,7 @@ function AdvisorSection() {
             <ul className="space-y-3 text-slate-700 ml-2">
               <li className="flex flex-col sm:flex-row">
                 <span className="font-medium sm:w-32 flex-shrink-0 text-slate-500">至今</span>
-                <span>國立大學 資訊工程學系 教授</span>
+                <span>明志科技大學 工業工程與管理系 教授</span>
               </li>
               {/*<li className="flex flex-col sm:flex-row">
                 <span className="font-medium sm:w-32 flex-shrink-0 text-slate-500">2012 - 2015</span>
