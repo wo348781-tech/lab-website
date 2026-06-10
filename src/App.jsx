@@ -83,11 +83,11 @@ const MEMBERS = {
 };
 
 const ALUMNI = [
-  { year: "2025", degree: "碩士", name: "陳大文", destination: "台積電 (TSMC) IT部門" },
-  { year: "2025", degree: "碩士", name: "林美玲", destination: "聯發科 (MediaTek) 演算法工程師" },
-  { year: "2024", degree: "博士", name: "王小明", destination: "國立大學 助理教授" },
-  { year: "2023", degree: "碩士", name: "黃阿智", destination: "Google 台灣 軟體工程師" },
-  { year: "2023", degree: "碩士", name: "劉一一", destination: "出國深造 (美國 CMU CS博士班)" }
+  //{ year: "2025", degree: "碩士", name: "陳大文", destination: "台積電 (TSMC) IT部門" },
+  //{ year: "2025", degree: "碩士", name: "林美玲", destination: "聯發科 (MediaTek) 演算法工程師" },
+  //{ year: "2024", degree: "博士", name: "王小明", destination: "國立大學 助理教授" },
+  //{ year: "2023", degree: "碩士", name: "黃阿智", destination: "Google 台灣 軟體工程師" },
+  //{ year: "2023", degree: "碩士", name: "劉一一", destination: "出國深造 (美國 CMU CS博士班)" }
 ];
 
 
