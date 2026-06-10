@@ -71,13 +71,14 @@ const MEMBERS = {
   //  { name: "李四", role: "博士班一年級", research: "6G 網路資源分配" }
   //],
   master: [
-    { name: "黃義凱", role: "碩士班一年級", research: "醫療影像分割", photo: "/members/student_b.jpg" },
-    { name: "陳德民", role: "碩士班一年級", research: "無人機通訊軌跡優化", photo: "/members/student_d.jpg" },
-    { name: "詹士毅", role: "碩士班一年級", research: "強化學習應用", photo: "/members/student_c.jpg" }
+    { name: "黃義凱", role: "碩士班一年級", research: "無", photo: "/members/student_b.jpg" },
+    { name: "陳德民", role: "碩士班一年級", research: "無", photo: "/members/student_d.jpg" },
+    { name: "詹士毅", role: "碩士班一年級", research: "無", photo: "/members/student_c.jpg" }
   ],
   undergrad: [
-    { name: "吳九", role: "大學部專題生", research: "物聯網感測資料分析" },
-    { name: "鄭十", role: "大學部專題生", research: "網頁前端與視覺化系統" }
+    { name: "李庭安", role: "大學部專題生", research: "無" },
+    { name: "蔣昌哲", role: "大學部專題生", research: "無" },
+    { name: "林靖展", role: "大學部專題生", research: "無" }
   ]
 };
 
