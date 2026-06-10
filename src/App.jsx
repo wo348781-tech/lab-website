@@ -327,7 +327,7 @@ function AdvisorSection() {
             </div>
             <div className="flex items-center text-slate-600">
               <ExternalLink className="w-5 h-5 mr-3 text-slate-400" />
-              <a href="#" className="hover:text-indigo-600 text-sm">個人網頁</a>
+              <a href="https://info.mcut.edu.tw/web1/iucc/Query/TeacherInfo.aspx?Name=11252" className="hover:text-indigo-600 text-sm">個人網頁</a>
             </div>
           </div>
         </div>
