@@ -315,7 +315,7 @@ function AdvisorSection() {
           <div className="w-full bg-slate-50 p-5 rounded-lg border border-slate-200 space-y-3">
             <div className="flex items-center text-slate-600">
               <Mail className="w-5 h-5 mr-3 text-slate-400" />
-              <a href="mailto:kunhuang@mail.mcut.edu.tw" className="hover:text-indigo-600 text-sm">prof.wang@example.edu.tw</a>
+              <a href="mailto:kunhuang@mail.mcut.edu.tw" className="hover:text-indigo-600 text-sm">kunhuang@mail.mcut.edu.tw</a>
             </div>
             <div className="flex items-center text-slate-600">
               <Phone className="w-5 h-5 mr-3 text-slate-400" />
