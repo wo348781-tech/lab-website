@@ -350,17 +350,13 @@ function AdvisorSection() {
             </h4>
             <ul className="space-y-3 text-slate-700 ml-2">
               <li className="flex flex-col sm:flex-row">
-                <span className="font-medium sm:w-32 flex-shrink-0 text-slate-500">2020 - 至今</span>
+                <span className="font-medium sm:w-32 flex-shrink-0 text-slate-500">至今</span>
                 <span>國立大學 資訊工程學系 教授</span>
               </li>
-              <li className="flex flex-col sm:flex-row">
-                <span className="font-medium sm:w-32 flex-shrink-0 text-slate-500">2015 - 2020</span>
-                <span>國立大學 資訊工程學系 副教授</span>
-              </li>
-              <li className="flex flex-col sm:flex-row">
+              {/*<li className="flex flex-col sm:flex-row">
                 <span className="font-medium sm:w-32 flex-shrink-0 text-slate-500">2012 - 2015</span>
                 <span>美國科技公司 (Tech Inc.) 資深研究員</span>
-              </li>
+              </li>*/}
             </ul>
           </section>
 
@@ -369,7 +365,7 @@ function AdvisorSection() {
               <Microscope className="w-6 h-6 mr-2 text-indigo-600" /> 研究專長
             </h4>
             <div className="flex flex-wrap gap-2">
-              {["人工智慧與機器學習", "邊緣運算", "物聯網通訊協定", "深度學習影像處理", "強化學習"].map((skill, idx) => (
+              {["資料科學", "大數據分析","人工智慧"].map((skill, idx) => (
                 <span key={idx} className="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium border border-indigo-100">
                   {skill}
                 </span>
@@ -578,7 +574,7 @@ function AlumniSection() {
                 <th className="py-4 px-6 font-semibold border-b border-slate-200 w-24">畢業年</th>
                 <th className="py-4 px-6 font-semibold border-b border-slate-200 w-24">學位</th>
                 <th className="py-4 px-6 font-semibold border-b border-slate-200 w-32">姓名</th>
-                <th className="py-4 px-6 font-semibold border-b border-slate-200">畢業去向 (Current Position)</th>
+                <th className="py-4 px-6 font-semibold border-b border-slate-200">畢業去向</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
